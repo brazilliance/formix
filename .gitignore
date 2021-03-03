@@ -1,0 +1,34 @@
+# composer
+composer.phar
+composer.lock
+/vendor/
+
+# IDE
+.idea/
+.vscode/
+.tags
+.settings/
+.classpath
+.project
+.buildpath
+
+# OS
+.DS_STORE
+
+# configuration
+.env
+.env.*
+*.env
+*.env.*
+auth.json
+
+# framework
+/logs/*
+!/logs/.keep
+!/logs/README.md
+
+# other
+/.scannerwork/
+.phpunit*
+phinx
+phpunit

@@ -1,0 +1,23 @@
+{
+    "name" : "brazilliance/formix",
+    "description" : "An open source PHP toolkit that uses JSON Schema documents for a number of common development, deployment and maintenance tasks.",
+    "minimum-stability" : "dev",
+    "license" : "MIT",
+    "authors" : [
+        {
+            "name" : "Miquel Brazil",
+            "email" : "miquel@brazilliance.co"
+        }
+    ],
+    "require" : {
+        "php" : ">=7.1 || >=8.0",
+        "ext-json" : "*",
+        "ext-pdo" : "*"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Brazilliance\\Formix\\" : "src/",
+            "Brazilliance\\Formix\\Tests\\" : "tests/"
+        }
+    }
+}
